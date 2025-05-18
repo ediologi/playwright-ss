@@ -12,8 +12,8 @@ This project demonstrates the use of Playwright for end-to-end testing.
 1.  Clone the repository:
 
     ```bash
-    git clone https://github.com/ediologi/playwright-demo.git
-    cd playwright-demo
+    git clone https://github.com/ediologi/playwright-ss.git
+    cd playwright-ss
     ```
 
 2.  Install dependencies:
@@ -74,8 +74,7 @@ This project demonstrates the use of Playwright for end-to-end testing.
 
 ## Project Structure
 
-    ```
-
+```
 ├── data/ # Static test data
 ├── helpers/ # Utility functions (array utils, price parsing, etc.)
 ├── pages/ # Page Object Model classes
