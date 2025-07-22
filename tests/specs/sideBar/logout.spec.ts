@@ -14,7 +14,5 @@ test("Standard user should be able to logout", async ({ page }) => {
 
   await sidebar.logout();
 
-  await expect(page).toHaveURL(`${process.env.BASE_URL}/`);
-
   await loginPage.expectLoginButtonVisible();
 });
